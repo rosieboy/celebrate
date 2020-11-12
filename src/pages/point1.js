@@ -32,7 +32,7 @@ function Point1() {
       </h2>
       </div>
     </div>
-      <AppleMapButton long={long} lat={lat} />
+      <AppleMapButton long={lat} lat={long} />
       <div className="static mt-4 text-gray-200 w-auto h-64">
         <GoogleApiWrapper long={long} lat={lat} marker={marker}/>
           {/*
