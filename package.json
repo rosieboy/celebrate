@@ -5,20 +5,28 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run watch:css && gatsby build --prefix-paths --verbose",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "npm run watch:css && npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
   },
   "dependencies": {
+    "@tailwindcss/ui": "^0.7.2",
     "gatsby": "^2.25.3",
+    "google-maps-react": "^2.0.6",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^1.9.6",
+    "typescript": "^4.0.5"
   },
   "devDependencies": {
+    "postcss": "^8.1.7",
+    "postcss-cli": "^8.2.0",
     "prettier": "2.1.2"
   },
   "repository": {
