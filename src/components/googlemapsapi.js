@@ -6,6 +6,7 @@ const mapStyles = {
   height: "16rem",
   "margin-left": "0rem",
   "margin-right": "2rem",
+  color: "#319795",
 }
 
 export class MapContainer extends Component {
