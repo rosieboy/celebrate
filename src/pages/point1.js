@@ -8,8 +8,8 @@ import GoogleApiWrapper from "../components/googlemapsapi"
 import pageIllustration from "../images/img_1964-50.jpeg";
 
 function Point1() {
-  var long = "59.3671"
-  var lat = "13.5090"
+  var lat = "59.3671"
+  var long = "13.5090"
   var marker = "1. Under the Bridge"
   return (
     <Layout>
@@ -32,7 +32,7 @@ function Point1() {
       </h2>
       </div>
     </div>
-      <AppleMapButton long={lat} lat={long} />
+      <AppleMapButton long={long} lat={lat} />
       <div className="static mt-4 text-gray-200 w-auto h-64">
         <GoogleApiWrapper long={long} lat={lat} marker={marker}/>
           {/*
