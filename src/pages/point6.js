@@ -5,11 +5,11 @@ import Navigation from "../components/nav"
 import AppleMapButton from "../components/applemap"
 import GoogleApiWrapper from "../components/googlemapsapi"
 
-import pageIllustration from "../images/img_1964-50.jpeg";
+import pageIllustration from "../images/img_9016-50.jpeg";
 
 function Point1() {
-  var lat = "59.3671"
-  var long = "13.5090"
+  var lat = "59,3702"
+  var long = "13,4844"
   var marker = "1. Under the Bridge"
   return (
     <Layout>
@@ -26,7 +26,7 @@ function Point1() {
           </div>
           <div className="md:ml-6 mt-4">
       <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-        Första målet.
+        Sjätte och sista målet.
         <br />
         <span className="text-indigo-600">Hey ho!</span>
       </h2>
@@ -48,7 +48,7 @@ function Point1() {
         ></iframe>
         */}
       </div>
-      <Navigation next="/point2" previous="/" />
+      <Navigation next="/" previous="/point5" />
       </div>
     </Layout>
   )
