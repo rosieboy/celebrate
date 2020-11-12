@@ -1,7 +1,7 @@
 import React from "react"
 import "../assets/main.css"
 import Layout from "../components/layout"
-import pageIllustration from "../images/IMG_1655.jpeg";
+import pageIllustration from "../images/IMG_1655-50.jpeg";
 
 function IndexPage() {
   return (

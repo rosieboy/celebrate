@@ -5,7 +5,7 @@ import Navigation from "../components/nav"
 import AppleMapButton from "../components/applemap"
 //import GoogleApiWrapper from "../components/googlemap"
 
-//import catAndHumanIllustration from "../images/IMG_1964.jpeg";
+//import catAndHumanIllustration from "../images/IMG_1964-50.jpeg";
 
 function Point1() {
   var long = "59.3671"
