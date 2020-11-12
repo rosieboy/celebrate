@@ -8,9 +8,9 @@ import GoogleApiWrapper from "../components/googlemapsapi"
 import pageIllustration from "../images/img_0787-50.jpeg";
 
 function Point1() {
-  var lat = "59,3590"
-  var long = "13,4890"
-  var marker = "1. Under the Bridge"
+  var lat = "59.3590"
+  var long = "13.4890"
+  var marker = "3. Sommar, sommar, sommar-ro"
   return (
     <Layout>
         <div class="bg-gray-50">
@@ -28,7 +28,7 @@ function Point1() {
       <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
         Tredje målet.
         <br />
-        <span className="text-indigo-600">Hey ho!</span>
+        <span className="text-indigo-600">{marker}</span>
       </h2>
       </div>
     </div>
