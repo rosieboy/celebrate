@@ -3,9 +3,9 @@ import { Map, GoogleApiWrapper, InfoWindow, Marker } from "google-maps-react"
 
 const mapStyles = {
   width: "auto",
-  height: "20rem",
-  "margin-left": "2rem",
-  "margin-right": "4rem",
+  height: "16rem",
+  "margin-left": "0rem",
+  "margin-right": "2rem",
 }
 
 export class MapContainer extends Component {
@@ -38,13 +38,13 @@ export class MapContainer extends Component {
         zoom={14}
         style={mapStyles}
         initialCenter={{
-          lat: -1.2884,
-          lng: 36.8233,
+          lat: this.props.lat,
+          lng: this.props.long,
         }}
       >
         <Marker
           onClick={this.onMarkerClick}
-          name={'Kenyatta International Convention Centre'}
+          name={this.props.marker}
         />
         <InfoWindow
           marker={this.state.activeMarker}
