@@ -7,6 +7,7 @@ function IndexPage() {
   return (
     <Layout>
       <div class="bg-gray-50">
+        
         <div class="md:flex">
           <div class="md:flex-shrink-0">
             <img
@@ -24,7 +25,7 @@ function IndexPage() {
             <h2 class="block mt-1 text-lg leading-tight font-semibold text-gray-900"></h2>
             <p class="mt-2 text-gray-600">
               Välkommen till <span class="font-bold">Lena 60</span>:s
-              hopp-och-lek-sida på webben.
+              hopp-och-lek-sida.
             </p>
           </div>
         </div>

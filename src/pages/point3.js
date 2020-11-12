@@ -10,7 +10,7 @@ import pageIllustration from "../images/img_0787-50.jpeg";
 function Point1() {
   var lat = "59.3590"
   var long = "13.4890"
-  var marker = "3. Sommar, sommar, sommar-ro"
+  var marker = "3. Bloody Tourists!"
   return (
     <Layout>
         <div class="bg-gray-50">
@@ -48,7 +48,7 @@ function Point1() {
         ></iframe>
         */}
       </div>
-      <Navigation next="/point4" previous="/point3" />
+      <Navigation next="/point4" previous="/point2" />
       </div>
     </Layout>
   )

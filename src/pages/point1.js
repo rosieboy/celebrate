@@ -26,7 +26,7 @@ function Point1() {
           </div>
           <div className="md:ml-6 mt-4">
       <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-      <span className="text-indigo-600">{marker}</span>
+        Första målet..
         <br />
         <span className="text-indigo-600">Hey ho!</span>
       </h2>

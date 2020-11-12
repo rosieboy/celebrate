@@ -10,7 +10,7 @@ import pageIllustration from "../images/img_0479-50.jpeg";
 function Point1() {
   var lat = "59.3642"
   var long = "13.4972"
-  var marker = "2. Hammarö till Karlstad, nu!"
+  var marker = "2. Här låg det nog en såg en gång..."
   return (
     <Layout>
         <div class="bg-gray-50">
