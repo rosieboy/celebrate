@@ -3,12 +3,17 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: [
-    './src/**/*.html',
-    './src/**/*.vue',
-    './src/**/*.jsx',
-    './src/**/*.js',
-  ],
+  purge: {
+    content: [
+      './src/components/*.js',
+      './src/pages/*.js',
+      './src/components/*.jsx',
+      './src/pages/*.jsx',
+    ],
+    options: {
+      whitelist: ['bg-color-500']
+    }
+  },
   theme: {
     extend: {},
   },
