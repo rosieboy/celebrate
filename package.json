@@ -12,7 +12,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "watch:css": "NODE_ENV=production tailwindcss build src/assets/tailwind.css -o src/assets/main.css"
+    "watch:css": "NODE_ENV=production tailwindcss build src/assets/tailwind.css -o src/assets/main.css",
+    "fullcss": "tailwindcss build src/assets/tailwind.css -o src/assets/main.css"  
   },
   "dependencies": {
     "@react-google-maps/api": "^1.13.0",
