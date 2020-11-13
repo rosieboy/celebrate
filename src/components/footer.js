@@ -3,15 +3,22 @@ import "../assets/main.css"
 
 function Footer() {
   return (
-    <div>
-      <a
-        href="index.html"
-        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
-      >
-        Tillbaka till startsidan...
-      </a>
-    </div>
+    <footer className="bg-indigo-600">
+        <nav className="flex justify-between max-w-4xl p-2 mx-auto text-sm md:p-4">
+          <p className="text-gray-300 text-xs">
+            Skapad av{` `}
+            <a
+              className="font-bold no-underline"
+              href="https://rosentech.se"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Anders Rosén
+            </a>
+          </p>
+        </nav>
+      </footer>
   )
 }
 
-export default Footer
+export default Footer;
