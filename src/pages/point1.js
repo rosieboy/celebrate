@@ -30,10 +30,11 @@ function Point1() {
               <br />
               <span className="text-indigo-600">Hey ho, let's go!</span>
             </h2>
-            {/*<p className="text-base text-cool-gray-500 font-light sm:mt-4">
-              En känd låt med Red Hot Chilippers. 
+            <p className="italic ext-base text-cool-gray-500 font-light sm:mt-4">
+              En känd låt med Red Hot Chiliwippers. 
+              Hur gör vi nu då? Ta er dit kartan leder er så!
               Vid denna bro blir första stoppet. 
-              En styrketår kan vi behöva.</p>*/}
+              En styrketår kan vi behöva här i början av loppet.</p>
           </div>
         </div>
         <AppleMapButton long={long} lat={lat} marker={marker} />

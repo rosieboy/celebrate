@@ -30,6 +30,8 @@ function Point4() {
               <br />
               <span className="text-indigo-600">{marker}</span>
             </h2>
+            <p className="italic ext-base text-cool-gray-500 font-light sm:mt-4">
+              Sommarro... Vad ska det bli av detta område? Mycket som händer här, men vi skiter i det just nu. Vi tar ett kort stopp och betraktar läget. Vem vinner tävlingen?</p>
           </div>
         </div>
         <AppleMapButton long={long} lat={lat} marker={marker} />

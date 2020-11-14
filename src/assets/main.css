@@ -2614,6 +2614,10 @@ video {
   color: rgba(55, 65, 81, var(--text-opacity));
 }
 
+.italic {
+  font-style: italic;
+}
+
 .uppercase {
   text-transform: uppercase;
 }

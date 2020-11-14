@@ -30,6 +30,10 @@ function Point6() {
               <br />
               <span className="text-indigo-600">{marker}</span>
             </h2>
+            <p className="italic ext-base text-cool-gray-500 font-light sm:mt-4">
+              När vi kommer hit kommer det en efterlängtad matpaus. 
+              Kanske inte det som bilden antyder, men gott lovar vi. 
+              Efter detta promenad tillbaka 🏢</p>
           </div>
         </div>
         <AppleMapButton long={long} lat={lat} marker={marker} />

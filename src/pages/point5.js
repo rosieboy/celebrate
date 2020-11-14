@@ -30,6 +30,9 @@ function Point5() {
               <br />
               <span className="text-indigo-600">{marker}</span>
             </h2>
+            <p className="italic ext-base text-cool-gray-500 font-light sm:mt-4">
+              På sommaren angör båtbussen här ibland. Men börjar vi inte bli lite kylslagna? 
+              Kan vara läge för nåt att värma oss med. De som vill bada får gärna göra det.</p>
           </div>
         </div>
         <AppleMapButton long={long} lat={lat} marker={marker} />

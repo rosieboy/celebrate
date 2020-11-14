@@ -30,7 +30,9 @@ function Point2() {
               <br />
               <span className="text-indigo-600">{marker}</span>
             </h2>
-            {/*<p className="text-base text-cool-gray-500 font-light sm:mt-4">Haket på bilden är vårt frukostställe i LA.</p>*/}
+            <p className="italic ext-base text-cool-gray-500 font-light sm:mt-4">
+              Breakfast in America på bilden!
+              I dag intar vi annan näring. Lite energi på detta stopp.</p>
           </div>
         </div>
         <AppleMapButton long={long} lat={lat} marker={marker} />

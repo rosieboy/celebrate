@@ -30,6 +30,9 @@ function Point3() {
               <br />
               <span className="text-indigo-600">{marker}</span>
             </h2>
+            <p className="italic ext-base text-cool-gray-500 font-light sm:mt-4">
+              Vilka gjorde skivan? Har vi tagit oss hit, nästan i grannkommunen, 
+              kan det vara aktuellt att värma oss lite i höstrusket.</p>
           </div>
         </div>
         <AppleMapButton long={long} lat={lat} marker={marker} />
