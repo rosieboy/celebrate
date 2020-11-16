@@ -46,4 +46,4 @@ function Point6() {
   )
 }
 
-export default Point6
+export default Point6;
